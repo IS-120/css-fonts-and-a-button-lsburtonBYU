@@ -57,9 +57,16 @@ footer {
   padding: 0 1rem;
 }
 
+img {
+  max-width: 600px;
+  height: auto;
+  width: 100%;
+}
+
 picture img {
   width: 100%;
   display: block;
+  max-width: none;
 }
 
 svg {
@@ -84,12 +91,6 @@ img[srcset] {
 /* temporary fix to size svg images */
 img[src$="svg"] {
   width: 200px;
-}
-
-img {
-  max-width: 600px;
-  height: auto;
-  width: 100%;
 }
 
 .button {
