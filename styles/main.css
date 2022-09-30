@@ -86,6 +86,12 @@ img[src$="svg"] {
   width: 200px;
 }
 
+img {
+  max-width: 600px;
+  height: auto;
+  width: 100%;
+}
+
 .button {
   background-color: var(--color-accent-dark);
   color: white;
